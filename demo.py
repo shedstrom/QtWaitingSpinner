@@ -61,7 +61,7 @@ class Demo(QWidget):
         button_hbox = QHBoxLayout()
         self.setLayout(grid)
         self.setWindowTitle("QtWaitingSpinner Demo")
-        self.setWindowFlags(Qt.Dialog)
+        self.setWindowFlags(Qt.WindowType.Dialog)
 
         # SPINNER
         self.spinner = QtWaitingSpinner(self)
@@ -142,7 +142,7 @@ class Demo(QWidget):
 
         grid.addWidget(groupbox1, *(1, 1))
         grid.addWidget(groupbox2, *(1, 2))
-        grid.addLayout(button_hbox, *(2, 1))
+        grid.layout().addLayout(button_hbox, *(2, 1))
 
         self.spinner.start()
         self.show()
