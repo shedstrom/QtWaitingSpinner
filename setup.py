@@ -33,6 +33,6 @@ setup(
     url='https://github.com/z3ntu/QtWaitingSpinner',
     license='MIT',
     author='Luca Weiss',
-    author_email='WEI16416@spengergasse.at',
+    author_email='luca@z3ntu.xyz',
     description='A waiting spinner for PyQt5', requires=['PyQt5']
 )
