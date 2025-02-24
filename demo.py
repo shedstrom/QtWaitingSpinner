@@ -26,8 +26,8 @@ SOFTWARE.
 
 import sys
 
-from PyQt6.QtCore import *
-from PyQt6.QtWidgets import *
+from PySide6.QtCore import *
+from PySide6.QtWidgets import *
 
 from waitingspinnerwidget import QtWaitingSpinner
 
