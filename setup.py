@@ -28,11 +28,11 @@ from distutils.core import setup
 
 setup(
     name='QtWaitingSpinner',
-    version='1.0',
+    version='1.1',
     packages=[''],
     url='https://github.com/z3ntu/QtWaitingSpinner',
     license='MIT',
     author='Luca Weiss',
     author_email='luca@z3ntu.xyz',
-    description='A waiting spinner for PyQt6', requires=['PyQt6']
+    description='A waiting spinner for PySide6', requires=['PySide6']
 )
