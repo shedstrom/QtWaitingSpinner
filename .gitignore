@@ -26,3 +26,4 @@ build-QtWaitingSpinnerTest-GCC-Debug*
 build-QtWaitingSpinnerTest-Desktop_Qt_5_3_GCC_64bit-Debug*
 build
 QtWaitingSpinner.egg-info
+__pycache__
